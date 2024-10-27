@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>note generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: #fff;
+            margin-top: 50px;
+        }
+        .container {
+            background-color: #ffc0cb;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #fff;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .note {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>for varsh ^^ </h1>
+    <div class="container">
+        <p class="note">{{ note }}</p>
+        <form action="/get_note" method="post">
+            <button type="submit"> click:3</button>
+        </form>
+    </div>
+    <h1>love, ash <3 </h1>
+</body>
+</html>
